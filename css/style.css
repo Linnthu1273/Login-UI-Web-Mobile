@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+body{
+    background-color: #85203b;
+}
+
+            /* ---------- Web ------------ */
+.login-w-form{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form-w{
+    width: 800px;
+    height: 450px;
+    border: 3px solid #071e3d;
+    border-radius: 15px;
+    background-color: #071e3d;
+    transition: .4s;
+    margin-right: 100px;
+    
+}
+.form-w:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+.login-w-name{
+    margin-top: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.login-w-name p{
+    color: whitesmoke;
+    letter-spacing: 3px;
+}
+.login-w-name span{
+    color: #e84a5f;
+}
+
+.create-w{
+    margin-top: 20px;
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-left: 50px;
+    color: #fff;
+}
+.create-w span{
+    color: #e84a5f;
+}
+
+.member-w{
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: #f5f5f590;
+}
+a{
+    margin-left: 10px;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #e84a5f;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+.login-w-control{
+    margin: 40px 50px;
+    width: 320px;
+}
+.input-w-form input, .btn-w{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #1f4287;
+    border-radius: 20px;
+}
+.input-w-text{
+    width: 320px;
+    display: flex;
+}
+.input-w-text #name{
+    margin-right: 20px;
+}
+input[type=text], input[type=email],input[type=password]{
+    color: #f5f5f5;
+    padding-left: 15px;
+}
+.input-w-text input::placeholder,
+.input-w-email input::placeholder, 
+.input-w-password input::placeholder{
+    color: #f5f5f590;
+}
+
+.btn-w{
+    width: 40%;
+    background-color: #e84a5f;
+    color: #f5f5f5;
+    font-weight: bold;
+    transition: .4s;
+}
+.btn-w:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+
+                /* --------- Mobile -------  */
+.login-form{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 300px;
+    height: 450px;
+    border: 3px solid #071e3d;
+    border-radius: 15px;
+    background-color: #071e3d;
+    transition: .4s;
+    
+}
+form:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+.login-name{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.login-name p{
+    color: whitesmoke;
+    letter-spacing: 3px;
+}
+.login-name span{
+    color: #e84a5f;
+}
+
+.login-control{
+    margin: 80px 50px;
+    width: 200px;
+}
+.login-title {
+   color: #fff;
+   font-size: 1.5rem;
+   font-weight: bold;
+   margin-bottom: 20px; 
+   letter-spacing: 3px;
+
+}
+.login-title span{
+    color: #e84a5f;
+}
+.input-form input, .btn{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #1f4287;
+    border-radius: 20px;
+}
+input[type=text],input[type=password]{
+    color: #f5f5f5;
+    padding-left: 15px;
+}
+.input-text input::placeholder, .input-password input::placeholder{
+    color: #f5f5f590;
+}
+
+.btn{
+    background-color: #e84a5f;
+    color: #f5f5f5;
+    font-weight: bold;
+    transition: .4s;
+}
+.btn:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
