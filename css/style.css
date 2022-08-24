@@ -8,7 +8,7 @@
 
 }
 body{
-    background-color: #85203b;
+    background-color: #8e334c;
 }
 
             /* ---------- Web ------------ */
@@ -19,7 +19,9 @@ body{
     align-items: center;
     
 }
-
+.dashboard{
+    display: flex;
+}
 .form-w{
     width: 800px;
     height: 450px;
@@ -117,6 +119,11 @@ input[type=text], input[type=email],input[type=password]{
     transform: translateY(-5px);
 }
 
+.dashboard-img img{
+    width: 340px;
+    height: 450px;
+}
+
 
                 /* --------- Mobile -------  */
 .login-form{
@@ -133,7 +140,6 @@ form{
     border-radius: 15px;
     background-color: #071e3d;
     transition: .4s;
-    
 }
 form:hover{
     cursor: pointer;
@@ -141,7 +147,7 @@ form:hover{
 }
 .login-name{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
     font-size: 2rem;
     font-weight: bold;
 }
@@ -154,22 +160,21 @@ form:hover{
 }
 
 .login-control{
-    margin: 80px 50px;
+    margin: 40px 50px;
     width: 200px;
 }
 .login-title {
    color: #fff;
    font-size: 1.5rem;
    font-weight: bold;
-   margin-bottom: 20px; 
+   margin-bottom: 15px; 
    letter-spacing: 3px;
-
 }
 .login-title span{
     color: #e84a5f;
 }
 .input-form input, .btn{
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     width: 100%;
     height: 40px;
     border: none;
@@ -195,4 +200,13 @@ input[type=text],input[type=password]{
     cursor: pointer;
     transform: translateY(-5px);
 }
-
+.mobile-img img{
+    width: 150px;
+    height: 100px;
+    position: relative;
+    margin-top: -30px;
+    margin-left: 130px;
+}
+.mobile-text{
+    z-index: 1;
+}
